@@ -1,0 +1,9 @@
+name: "DigitalOcean Spaces Sync"
+description: "Sync a directory to a DigitalOcean Space"
+author: 'nebula-dev'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'send'
+  color: 'blue'
