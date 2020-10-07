@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.7.1-alpine3.8
 
 LABEL "com.github.actions.name"="DigitalOcean Spaces Sync"
 LABEL "com.github.actions.description"="Sync assets to repository-specific directory within space, maintaining local directory structure"
